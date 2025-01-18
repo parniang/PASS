@@ -4,9 +4,9 @@ The PASS algorithm was implemented to reduce the dataset by selecting key points
 The analysis determined that a threshold of 0.01 provides the most accurate representation of the ETTh2 dataset when using the PASS algorithm. The notebook includes visualizations and detailed metrics to support this conclusion, making it easy to share and reproduce results.
 
 Key Steps in the Algorithm:
-Calculate the angle between data points.
-Select points if the angle exceeds the threshold.
-Output the reduced dataset.
+1-Calculate the angle between data points.
+2-Select points if the angle exceeds the threshold.
+3-Output the reduced dataset.
 
 Testing Different Thresholds:
 Several thresholds were tested to determine the optimal value. Threshold values of 5, 0.5, 0.1, and 0.01 were evaluated, and their performance was measured using metrics such as:
@@ -26,9 +26,7 @@ Threshold 0.01 provided the best results with a high SSIM and low MSE while main
 
 Visualization
 Two types of visualizations were included:
-
-Original Dataset:
+1-Original Dataset:
 A plot showing the raw ETTh2 data.
-
-Reduced Dataset (PASS):
+2-Reduced Dataset:
 A comparison of the original dataset (blue) and the reduced dataset (red).
