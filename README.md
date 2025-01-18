@@ -1,11 +1,10 @@
 Analysis of ETTh2 Dataset with PASS Algorithm
-
-This document explains the steps followed to analyze the ETTh2 dataset using the PASS algorithm in Google Colab. Additionally, it highlights the process of testing various thresholds and concludes that a threshold of 0.01 provides the best results for this dataset. The document also includes instructions for sharing the Colab notebook with the embedded dataset.
+This document explains the steps followed to analyze the ETTh2 dataset using the PASS algorithm. Additionally, it highlights the process of testing various thresholds and concludes that a threshold of 0.01 provides the best results for this dataset. 
 The PASS algorithm was implemented to reduce the dataset by selecting key points based on a threshold (θ) that determines significant transitions in the data.
 The analysis determined that a threshold of 0.01 provides the most accurate representation of the ETTh2 dataset when using the PASS algorithm. The notebook includes visualizations and detailed metrics to support this conclusion, making it easy to share and reproduce results.
 
 Key Steps in the Algorithm:
-Calculate the angle between consecutive data points.
+Calculate the angle between data points.
 Select points if the angle exceeds the threshold.
 Output the reduced dataset.
 
